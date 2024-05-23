@@ -14,6 +14,7 @@ export interface CommandStatEntry {
   name: string;
   id: string;
   type: ApplicationCommandType;
+  // eslint-disable-next-line
   options: { [p: string]: any };
   context: InteractionContextType | null;
   integration_types: ApplicationIntegrationType[];
