@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "lint": "eslint",
+    "lint": "eslint . --ignore-pattern 'dist/'",
     "format": "prettier --write 'src/**/*.{ts,tsx,json,md}'",
     "prepare": "pnpm run build",
     "prepublishOnly": "pnpm run format && pnpm run lint"
