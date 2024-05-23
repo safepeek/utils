@@ -1,0 +1,11 @@
+# Ignore build output
+dist/
+
+# Ignore node modules
+node_modules/
+
+# Ignore specific files or directories
+coverage/
+
+# Ignore all markdown files (if needed)
+*.md
