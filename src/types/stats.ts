@@ -8,6 +8,9 @@ export interface CommandStatEntryMetadata {
   guild_locale: string | null;
   interaction_id: string;
   invoked_at: number;
+  bot_version: string;
+  last_commit: string;
+  environment: string;
 }
 
 export interface CommandStatEntry {
